@@ -1,0 +1,105 @@
+.more {
+    padding: 10px 25px 10px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+ 
+code {
+    background-color: rgb(34, 34, 34);
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: auto;
+    text-overflow: clip;
+    border-radius: 7px;
+    align-self: center;
+    max-height: 500px;
+    width: 95%;
+    margin-bottom: 20px;
+    /* ========================== */
+    font-family: monospace;
+    color: rgb(128, 193, 223);
+    font-size: 14px;
+}
+
+.code-type {
+    color: rgb(208, 226, 225);
+    float: right;
+    margin-right: 40px;
+}
+
+.container {
+    padding: 1% 10% 1% 10%;
+}
+        
+.kw {
+    color: rgb(68, 148, 201);
+}
+
+.kw2 {
+    color: rgb(180, 105, 180)
+}
+
+.const {
+    color: rgb(68, 166, 231);
+}
+
+.func {
+    color: rgb(216, 216, 157);
+}
+
+.str {
+    color: rgb(212, 135, 122);
+}
+
+.var {
+    color: skyblue;
+}
+
+.class{
+    color: rgb(93, 216, 165)
+}
+
+.indent {
+    margin-left: 22px;
+}
+
+.comment{
+    color: rgb(97, 128, 102);
+}
+
+
+
+/* section{
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    margin: 20px 0px 20px 0px;
+} */
+
+section{
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    background: linear-gradient(to bottom, #fff, #eee, #eee, #eee, #eee, #eee, #eee, #ddd);
+    box-shadow: rgb(153, 153, 153) 2px 2px 15px;
+    max-width: 700px;
+}
+
+section>*{
+    width: 95%;
+}
+
+section>h1, section>h2, section>h3, section>h4, section>h5{
+    color: darkslategray;
+    text-align: center;
+}
